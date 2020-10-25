@@ -1,5 +1,5 @@
 const videoGrid = document.getElementById('video-grid');
-const socket = io('/');
+const socket = io('https://rebel-purring-toothbrush.glitch.me');
 let peers = {};
 let myId;
 const myPeer = new Peer(undefined, {
